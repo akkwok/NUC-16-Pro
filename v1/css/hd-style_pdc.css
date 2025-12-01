@@ -6091,6 +6091,7 @@ screen and (max-width: 1023px) {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 #hd .section-features .grid .box-10 .text{
     width: 100%;
@@ -6146,17 +6147,28 @@ screen and (max-width: 1023px) {
 }
 #hd .section-features .grid .box-13 .text{
     width: 100%;
-    padding: 10px 10px 10px 10px;
+    padding: 0;
+    position: absolute;
+    transform: translate(-50%, 0%);
+    bottom: 2vw;
+    left: 50%;
+}
+#hd .section-features .grid .box-13 .text .p1{
+    text-shadow: 0 0 3px #fff, 1px 1px 2px #fff, -1px -1px 2px #fff, 0 0 10px #fff
 }
 #hd .section-features .grid .box-13 .image{
     width: 100%;
-    padding: 20px 0px 20px 0;
-    position: absolute;
+    padding: 0;
+    position: relative;
     left: 0;
     top: 0;
     z-index: -1;
 }
-
+#hd .section-features .grid .box-13 .image img{
+        width: 110%;
+    margin: -3.8%;
+    max-width: inherit !important;
+}
 #hd .section-features .grid .row .box-14{
     background: url('../img/bg-8.jpg') no-repeat bottom left;
     display: flex;
