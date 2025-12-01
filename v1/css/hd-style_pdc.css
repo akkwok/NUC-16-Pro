@@ -5666,6 +5666,9 @@ screen and (max-width: 1023px) {
     margin: 5px 0 0 0;
     letter-spacing: -0.02em;
 }
+#hd .section-features .grid .p2 b{
+    font-size: 1.3em;
+}
 #hd .section-features .grid .note{
     font-size: 1em;
     color: #fff;
@@ -5685,7 +5688,7 @@ screen and (max-width: 1023px) {
     align-items: center;
     flex-direction: row-reverse;
 }
-#hd .section-features .grid .row .column.of3.box-1:before {
+#hd .section-features .grid .row .column.of2.box-1:before {
     background-image: url(../img/bg-0.jpg);
             top: 50%;
         left: 0;
@@ -5699,7 +5702,7 @@ screen and (max-width: 1023px) {
     content: "";
         z-index: -1;
 }
-#hd .section-features .grid .row .column.of3.box-2:before {
+#hd .section-features .grid .row .column.of2.box-2:before {
     background-image: url(../img/bg-3.jpg);
             top: 50%;
         left: 0;
@@ -5713,7 +5716,7 @@ screen and (max-width: 1023px) {
     content: "";
         z-index: -1;
 }
-#hd .section-features .grid .row .column.of3.box-2b:before {
+#hd .section-features .grid .row .column.of2.box-2b:before {
     background-image: url(../img/bg-6.jpg);
             top: 50%;
         left: 0;
@@ -5727,7 +5730,21 @@ screen and (max-width: 1023px) {
     content: "";
         z-index: -1;
 }
-#hd .section-features .grid .row .column.of4.box-11:before {
+#hd .section-features .grid .row .column.of2.box-10:before {
+    background-image: url(../img/bg-3.jpg);
+            top: 50%;
+        left: 0;
+        width: 470%;
+    height: 100%;
+        background-size: contain;
+        transform: translateY(-50%);
+            display: block;
+    position: absolute;
+    background-size: 30% 150%;
+    content: "";
+        z-index: -1;
+}
+#hd .section-features .grid .row .column.of2.box-11:before {
     background-image: url(../img/bg-8.jpg);
             top: 50%;
         left: 0;
@@ -5737,7 +5754,7 @@ screen and (max-width: 1023px) {
         transform: translateY(-50%);
             display: block;
     position: absolute;
-    background-size: cover;
+    background-size: 100% 120%;
     content: "";
         z-index: -1;
 }
@@ -5755,7 +5772,7 @@ screen and (max-width: 1023px) {
     content: "";
         z-index: -1;
 }
-#hd .section-features .grid .row .column.of4.box-4a:before {
+#hd .section-features .grid .row .column.of2.box-4a:before {
     background-image: url(../img/bg-9.jpg);
             top: 50%;
         left: 0;
@@ -5784,8 +5801,8 @@ screen and (max-width: 1023px) {
         z-index: -1;
 }
 #hd .section-features .grid .box-1 .text{
-    padding: 10px 10px 10px 20px;
-    width: 60%;
+    padding: 10px 10px 10px 10px;
+    width: 80%;
 }
 #hd .section-features .grid .box-1 .image{
     width: 40%;
@@ -5797,6 +5814,9 @@ screen and (max-width: 1023px) {
 }
 #hd .section-features .grid .box-1 .p1{
     margin-top: 0em;
+}
+#hd .section-features .grid .box-1 .p1 b{
+    font-size: 1.3em;
 }
 #hd .section-features .grid .box-1 .p1 span{
     font-size: 0.9em;
@@ -5943,15 +5963,15 @@ screen and (max-width: 1023px) {
         margin: 15% 0 0 -50%;
     }
 }
-#hd .section-features .grid .row .column.box-11{
+/* #hd .section-features .grid .row .column.box-11{
     width: 20%;
-}
-#hd .section-features .grid .row .column.box-4a{
+} */
+/* #hd .section-features .grid .row .column.box-4a{
     width: 20%;
-}
-#hd .section-features .grid .row .column.box-4{
+} */
+/* #hd .section-features .grid .row .column.box-4{
     width: 29%;
-}
+} */
 #hd .section-features .grid .box-4a .text{
     padding: 20px;
     text-align: center;
@@ -6074,7 +6094,7 @@ screen and (max-width: 1023px) {
 }
 #hd .section-features .grid .box-10 .text{
     width: 100%;
-    padding: 30px 0.5em 10px 0.5em;
+    padding: 10px 0.5em 10px 0.5em;
     text-align: center;
 }
 #hd .section-features .grid .box-10 .image{
@@ -6092,7 +6112,7 @@ screen and (max-width: 1023px) {
     justify-content: center;
 }
 #hd .section-features .grid .box-11 .text{
-    padding: 0px 20px 0px 20px;
+    padding: 0;
     text-align: center;
 }
 
@@ -6232,6 +6252,7 @@ screen and (max-width: 1023px) {
     flex-direction: column;
     padding: 10px 20px;
     margin-right: 1em;
+    font-size: clamp(1.0em, 1.3vw, 1.3em) !important;
     /* width: 50%; */
 }
 
@@ -6290,11 +6311,20 @@ screen and (max-width: 1023px) {
 }
 
 /**/
-#hd .section-tab #tab1-panel-2 img.Copy_of_DDR5x{
-        width: 100vw;
+#hd .section-tab #tab1-panel-1 img.pic_asus_GPU_b{
+        width: 75vw;
     max-width: inherit !important;
-    margin: 0 -50vw;
+    margin: -3vw -21vw;
     z-index: -1;
+    /* width: 100%; */
+    position: relative;
+}
+#hd .section-tab #tab1-panel-2 img.Copy_of_DDR5x{
+        width: 35vw;
+    max-width: inherit !important;
+    margin: 0 -6vw;
+    z-index: -1;
+    /* width: 100%; */
     position: relative;
 }
 #hd .section-tab #tab1-panel-3 .hd-content{
@@ -8659,7 +8689,7 @@ screen and (max-width: 1023px) {
     color: #fff;
     font-family: "TT Norms Pro Light", "STHeiti Light", "Apple LiGothic Medium", "微軟正黑體", "Microsoft JhengHei", Helvetica, Arial, sans-serif;
     font-weight: 600;
-    font-size: clamp(1.2em, 1.6em, 1.5vw);
+    font-size: clamp(1.65em, 2vw, 2.125em);
     margin: 0.5vw 0;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
 }
@@ -8885,6 +8915,9 @@ screen and (max-width: 1023px) {
     #hd #Fanless-overview .maintitle h2{
             font-size: 2em !important;
     }
+    #hd #pageContent-sec-hardware .hd-container .card_style{
+
+    }
 
 }
 #hd .hd-container .hd-info-container.hd-col50{
@@ -9087,7 +9120,18 @@ screen and (max-width: 1023px) {
         width: 100%;
         padding-bottom: 20px;
     }
-     
+    #hd #pageContent-support .inner{
+        padding: 0 30px;
+    }
+    #hd #pageContent-support .inner .inner{
+        padding: 0;
+    }
+    #hd .theme-black .flex-nowrap{
+            flex-direction: column;
+    }
+    #hd #pageContent-sec-hardware .hd-container .card_style{
+        padding-bottom: 2em;
+    }
 }
 /*-----tab-content-1a-----*/
 
@@ -9601,8 +9645,9 @@ screen and (max-width: 1023px) {
     }
 }
 /**/
-#hd #section-Connectivity{
-
+#hd .section-Connectivity{
+    padding-bottom: 0;
+    overflow:hidden;
 }
 /**/
 #hd .section-single.connectivity{
@@ -9890,11 +9935,19 @@ screen and (max-width: 1023px) {
 /**/
 @media screen and (max-width: 768px) {
     #hd .hd-col50,
+    #hd .hd-col55,
     #hd .hd-col40,
+    #hd .hd-col45,
+    #hd .hd-col35,
     #hd .hd-col60,
+    #hd .hd-col65,
     #hd .hd-col30,
     #hd .hd-col70{
         width: 100%;
+    }
+    #hd #pageContent-sec-power .tab-content .hd-content{
+        padding: 0;
+        margin-top: 1em;
     }
     #hd .section-tab .flex-nowrap,
     #hd .section-desktop .flex-nowrap,
@@ -9919,16 +9972,21 @@ screen and (max-width: 1023px) {
     #hd .section-tab .inner{
         padding: 0;
     }
+    #hd .section-tab #tab1-panel-1 img.pic_asus_GPU_b{
+        width: 360%;
+        margin: -15% 0 -20% -135%;
+    }
     img.intel_CPU{
-        width: 80%;
-        max-width: 400px !important;
+        width: 60%;
+        max-width: 360px !important;
+        margin-bottom: 1em;
     }
     #hd .hd-container .ksp_box li{
         margin-bottom: 0.5em;
     }
     #hd .section-tab #tab1-panel-2 img.Copy_of_DDR5x{
-        width: 200%;
-        margin: 0 0 0 -90%;
+                width: 160%;
+        margin: 0 0 5% -40%;
     }
     #hd #tab1-panel-3 .hd-container{
         padding-bottom: 20px;
@@ -9942,6 +10000,6 @@ screen and (max-width: 1023px) {
     #hd .section-Connectivity .wifi{
         width: 200%;
         max-width: inherit !important;
-        margin: 0 0 0 -65%;
+        margin: 0 0 0 -50%;
     }
 }
