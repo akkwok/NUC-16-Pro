@@ -824,7 +824,8 @@ body {
     color: #fff;
 }
 #hd .theme-black span.color-gradient-light{
-    display: inline;
+    display: inline-block;
+    letter-spacing: -0.01em;
 }
 #hd section.theme-black span,
 #hd section.theme-black h3,
@@ -6445,6 +6446,9 @@ screen and (max-width: 1023px) {
 }
 #hd #pageContent-sec-Ethernet .hd-info-container.hd-col30:last-child{
     margin-right: 0;
+}
+#hd #pageContent-sec-Ethernet .hd-info-container .card_style .card_title{
+    font-size: 1.6em;
 }
 #hd #pageContent-sec-Ethernet .hd-info-container .card_style img{
     margin-bottom: 1em;
