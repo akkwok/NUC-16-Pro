@@ -9111,6 +9111,17 @@ screen and (max-width: 1023px) {
     padding-top: 6vw;
     padding-bottom: 6vw;
 }
+#hd #pageContent-support .tab-content span.h3{
+    width: 100%;
+    text-align: center
+}
+#hd #pageContent-support .tab-content a {
+    color: #000;
+    text-decoration: underline;
+    font-size: 1em;
+    margin: 1em 0 0;
+    display: inline-block;
+}
 #hd #pageContent-support.section-tab .inner .text-content{
     padding-top: 0vw;
 }
@@ -9390,7 +9401,17 @@ screen and (max-width: 1023px) {
     color: #68abdd;
     display: block;
 }
-
+#hd .tab-content-1a .hd-img-container{
+    position: relative; 
+}
+#hd .tab-content-1a .hd-img-container p{
+    position: absolute; 
+    top: 50%;
+    left: 5%;
+    color: #fff;
+    width: 90%;
+    transform: translate(0%, -50%);
+}
 @media screen and (max-width: 1200px) {    
 }
 
@@ -9694,7 +9715,7 @@ screen and (max-width: 1023px) {
     max-width: 1500px;
     padding: 0px 30px;
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 3em auto 0;
 }
 #hd .tab-content-2c .text-content{
     max-width: 1100px;
